@@ -12,9 +12,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/vmlellis/zapcloudwatchcore/zapcloudwatchcore"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+	"github.com/vmlellis/zapcloudwatchcore"
 )
 
 func getConsoleCore() zapcore.Core {
