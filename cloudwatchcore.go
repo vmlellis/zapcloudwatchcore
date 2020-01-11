@@ -29,10 +29,6 @@ type CloudwatchCore struct {
 	out zapcore.WriteSyncer
 }
 
-// https://github.com/uber-go/zap/blob/master/example_test.go
-// https://godoc.org/go.uber.org/zap#hdr-Extending_Zap
-// https://github.com/uber-go/zap/blob/master/zapcore/core.go
-
 type NewCloudwatchCoreParams struct {
 	GroupName    string
 	StreamName   string
